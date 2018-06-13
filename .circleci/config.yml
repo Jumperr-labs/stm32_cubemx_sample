@@ -11,3 +11,6 @@ jobs:
       - run:
           name: save result
           command: cp -rf build/. $CIRCLE_ARTIFACTS/
+general:
+  artifacts:
+    - "build"
