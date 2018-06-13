@@ -7,10 +7,6 @@ jobs:
       - checkout
       - run:
           name: build
-          command: make
-      - run:
-          name: save result
-          command: cp -rf build/. $CIRCLE_ARTIFACTS/
-general:
-  artifacts:
-    - "build"
+          command: echo $PWD && make
+      - store_artifacts:
+          path: ~/build
