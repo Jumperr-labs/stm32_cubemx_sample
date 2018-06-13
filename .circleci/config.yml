@@ -8,3 +8,6 @@ jobs:
       - run:
           name: build
           command: make
+      - run:
+          name: save result
+          command: cp -f build/testcube2.elf build/*.bin $CIRCLE_ARTIFACTS
