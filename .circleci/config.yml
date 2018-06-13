@@ -9,4 +9,4 @@ jobs:
           name: build
           command: echo $PWD && make
       - store_artifacts:
-          path: ~/build
+          path: build/testcube2.bin
