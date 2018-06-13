@@ -10,4 +10,4 @@ jobs:
           command: make
       - run:
           name: save result
-          command: cp -f build/*.bin $CIRCLE_ARTIFACTS
+          command: cp -f build/. $CIRCLE_ARTIFACTS/
