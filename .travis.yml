@@ -9,6 +9,4 @@ before_install:
 - docker pull jumperio/vlab-gcc-arm:latest
 
 script:
-- docker run -it --rm -v $PWD:/my_files_in_docker jumperio/vlab-gcc-arm
-- cd my_files_in_docker
-- make
+- docker exec -it --rm -v $PWD:/my_files_in_docker --workdir /my_files_in_docker jumperio/vlab-gcc-arm  make
