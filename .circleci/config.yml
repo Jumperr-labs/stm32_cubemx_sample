@@ -1,0 +1,10 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: jumperio/vlab-gcc-arm:latest
+    steps:
+      - checkout
+      - run:
+          name: build
+          command: make
