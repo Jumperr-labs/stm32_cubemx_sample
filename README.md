@@ -1,5 +1,5 @@
 # STM32 Build Server example 
-A sample repo to demonstrate how CI works on STM32 projects. This sample is based on the [following tutorial](https://blog.jumper.io/stm32-build-server/). Follow the instructions in the [link](https://blog.jumper.io/stm32-build-server/) to set this up yourself.
+A sample repo to demonstrate how continuous integration works on STM32 projects. This sample is based on the [following tutorial](https://blog.jumper.io/stm32-build-server/). Follow the instructions in the [link](https://blog.jumper.io/stm32-build-server/) to set this up yourself.
 
 Click here to see the latest build result and artifact on CircleCI - [![CircleCI](https://circleci.com/gh/Jumperr-labs/stm32_cubemx_sample.svg?style=svg)](https://circleci.com/gh/Jumperr-labs/stm32_cubemx_sample)
 
