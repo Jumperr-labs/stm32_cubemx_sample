@@ -7,8 +7,10 @@ Here's another example of a working continuous integration tool using Travis CI 
 
 ## How to run the build server locally
 
-Install Docker (if you’re looking to implement a continuous integration process, Docker is one of the building blocks you’ll need).
+### Prerequisites
+Docker - (if you’re looking to implement a continuous integration process, Docker is one of the building blocks you’ll need).
 
+### Run these commands
 ```
 docker pull jumperio/vlab-gcc-arm
 git clone https://github.com/Jumperr-labs/stm32_cubemx_sample.git
