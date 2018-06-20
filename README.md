@@ -8,7 +8,7 @@ Here's another example of a working continuous integration tool using Travis CI 
 ## What's in this sample
 
 1. We used STM32CubeMX to generate a Makefile project. This is required in order to have a project we can easily build on a Linux machine with GCC-ARM.
-2. We then created a container with the toolchain installed.
+2. We then created a Docker container with the toolchain installed.
 3. Next, we configured CircleCI and TravisCI to build our project every time we push new code to GitHub.
 
 For full details and walkthrough, [head to the following link](https://blog.jumper.io/stm32-build-server/).
