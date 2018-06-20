@@ -30,6 +30,6 @@ docker run -v $PWD:/my_files_in_docker –entrypoint /usr/bin/make jumperio/vlab
 
 The following post demonstrates how to use CircleCI, TravisCI and Docker to create a continuous integration process with test automation. [See this link for more details](https://blog.jumper.io/stm32-continuous-integration/).
 
-To learn more about continuous integration and test automation for embedded software, [checkout our blog](https://blog.jumper.io).
+Check out this [test automation and continuous integration for embedded software blog](https://blog.jumper.io) to learn more.
 
 To Start using the Jumper Virtual Lab, [click here for more details](https://jumper.io).
